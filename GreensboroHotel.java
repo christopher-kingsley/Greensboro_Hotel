@@ -1,3 +1,9 @@
+// Ahmad Khader
+// Christopher Kingsley
+// COMP 360
+// November 30 Due Date
+// Project 3 Greensboro Hotel
+
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
