@@ -55,12 +55,10 @@ public class GreensboroHotel {
     public GreensboroHotel() {
         reservations = new HashMap<>();
         pins = new HashMap<>();
-        for (int i = 1; i <= 3; i++) {
-            for (int j = 1; j <= 10; j++) {
-                int roomNumber = i * 100 + j;
-                reservations.put(roomNumber, new ArrayList<>());
-                pins.put(roomNumber, null); // Pins are initially null
-            }
+        // Limiting to only 5 rooms (101 to 105)
+        for (int i = 101; i <= 105; i++) {
+            reservations.put(i, new ArrayList<>());
+            pins.put(i, null); // Pins are initially null
         }
     }
 
